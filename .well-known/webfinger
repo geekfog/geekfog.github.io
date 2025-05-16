@@ -1,0 +1,23 @@
+{
+   "aliases" : [
+      "https://twit.social/@recursivegeek",
+      "https://twit.social/users/recursivegeek"
+   ],
+   "links" : [
+      {
+         "href" : "https://twit.social/@recursivegeek",
+         "rel" : "http://webfinger.net/rel/profile-page",
+         "type" : "text/html"
+      },
+      {
+         "href" : "https://twit.social/users/recursivegeek",
+         "rel" : "self",
+         "type" : "application/activity+json"
+      },
+      {
+         "rel" : "http://ostatus.org/schema/1.0/subscribe",
+         "template" : "https://twit.social/authorize_interaction?uri={uri}"
+      }
+   ],
+   "subject" : "acct:recursivegeek@twit.social"
+}
